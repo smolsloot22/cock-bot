@@ -5,7 +5,7 @@ import secrets
 import discord
 from dotenv import load_dotenv
 
-load_dotenv()
+#load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 
 class CustomClient(discord.Client):
