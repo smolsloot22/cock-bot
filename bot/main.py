@@ -13,9 +13,6 @@ class CustomClient(discord.Client):
 		print(f'{client.user} is ready to rate some cocks!')
 
 	async def on_message(self, message):
-		if message.author == client.user:
-			return
-
 		#put quotes in here
 		cock_quotes = [
 			"Woah, that's a nice cock you got there. 8/10",
