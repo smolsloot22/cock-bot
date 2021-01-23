@@ -1,11 +1,10 @@
 import os
-import random
 import secrets
 
 import discord
 from dotenv import load_dotenv
 
-#load_dotenv()
+load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 
 class CustomClient(discord.Client):
@@ -47,9 +46,5 @@ class CustomClient(discord.Client):
 				response = secrets.choice(cock_quotes)
 				await channel.send('```'+response+'```')
 
-def main():
-	client = CustomClient()
-	client.run(TOKEN)
-
-if __name__ == "__main__":
-	main()
+client = CustomClient()
+client.run(TOKEN)
