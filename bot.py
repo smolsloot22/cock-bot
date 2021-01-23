@@ -47,6 +47,9 @@ class CustomClient(discord.Client):
 				response = secrets.choice(cock_quotes)
 				await channel.send('```'+response+'```')
 
-client = CustomClient()
+def main():
+	client = CustomClient()
+	client.run(TOKEN)
 
-client.run(TOKEN)
+if __name__ == "__main__":
+	main()
