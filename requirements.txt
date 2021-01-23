@@ -1,2 +1,2 @@
 discord
-load_dotenv
+python-dotenv
