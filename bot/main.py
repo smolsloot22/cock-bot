@@ -34,7 +34,11 @@ class CustomClient(discord.Client):
 			"That is a cock close to perfection, impressive, one of the best I've seen. 9/10",
 			"An outstanding specimen, as if brought to life by the great renaissance, a work of art, truly. 9.5/10",
 			"Holy... I've never seen anything like this. Now that's a cock of biblical proportions, to be worshiped for generations. 10/10",
-			"A gift from the gods, so shapely and succulent with a clean tip, it's cocks like yours that inspired ancient religion to revere the phallus. 11/10"
+			"A gift from the gods, so shapely and succulent with a clean tip, it's cocks like yours that inspired ancient religion to revere the phallus. 11/10",
+			'"A super dimensional being... heh, this may actually be a fair fight!"  - Fighting Solaris as Super Shadow in Sonic \'06.',
+			'"I am Shadow the Hedgehog. A research experiment, gone deadly wrong. I\'ve caused so much destruction, I should have never been created. This is who I am." - From one of the many endings in Shadow The Hedgehog.',
+			'"Chaos.... CONTROL!" - Right before delivering das boot to Silver\'s yee yee headass',
+			"The Urology Care Foundation only recommends penis enhancement surgery for people with a rare condition called micropenis where a penis is two or more standard deviations below the average size. Click here to learn more about penis enlargement methods. 2/10"
 		]
 		if message.content.startswith('!'):
 			channel = message.channel
