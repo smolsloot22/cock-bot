@@ -41,7 +41,7 @@ class CustomClient(discord.Client):
 		if message.content.startswith('!'):
 			channel = message.channel
 
-			if '!cock'.lower() or '!cyak'.lower() in message.content:
+			if '!cock' or '!cyak' in message.content.lower():
 				response = secrets.choice(cock_quotes)
 				await channel.send('```'+response+'```')
 
