@@ -13,8 +13,6 @@ class CustomClient(discord.Client):
 	async def on_message(self, message):
 		#put quotes in here
 		cock_quotes = [
-			"Woah, that's a nice cock you got there. 8/10",
-			"Hey that's a pretty good lookin' cock. 7/10",
 			"Mid. I've *definitely* seen better. 5/10",
 			"I would hide that stublet, I'm sorry... I truly am, the world can be a cruel place. 1/10",
 			"I could smell that thing before I even looked, personal hygiene is important my friend, now go wash that up. 2/10",
