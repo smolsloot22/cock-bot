@@ -43,7 +43,7 @@ class CustomClient(discord.Client):
 
 			if 'cock' in message.content.lower() or 'cyak' in message.content.lower():
 				response = secrets.choice(cock_quotes)
-				await channel.send('```'+response+'```')
+				await channel.send('```'+response+'\n\nMerry Cockmas!```')
 
 client = CustomClient()
 client.run(TOKEN)
